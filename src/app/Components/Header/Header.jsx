@@ -5,7 +5,7 @@ import Logo from './Assets/Logo.png'
 
 export default function Header() {
   return (
-    <header className=' fixed top-0 w-full flex justify-between items-center py-2 px-[5%] '>
+    <header className=' fixed z-[10] top-0 w-full flex justify-between items-center py-2 px-[5%] '>
       <nav className='w-[15%] flex justify-between '>
         <Link href="">
             Home
