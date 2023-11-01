@@ -9,7 +9,7 @@ const LetVideo = () => {
           width="100%"
           height="100%"
           className=" w-full absolute top-0 left-0 "
-          src={`https://www.youtube.com/embed/-X7okpS9Ufc?si=QMQ7_XeSoPquhR_r`}
+          src={`https://www.youtube.com/embed/WsQHqyKKlME?si=OVF7jzE4EkPGPBb_`}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
