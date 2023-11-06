@@ -32,16 +32,25 @@ header {
 }
 
 .animate-marquee {
-  animation: marquee 15s linear infinite; /* Increased animation duration to 30 seconds */
+  animation: marquee 20s linear infinite; /* Increased animation duration to 30 seconds */
   flex: 0 0 100%;
   /* Center the Image within each div */
 }
 
 .our-story{
-  background: rgba(255, 255, 255, 0.90);
+  background: url("../app/Components/HomeHero/OurStory/Assets/Image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .delivery {
   background: url("../app/Components//HomeHero//Delivery//Assets/Images\ of\ delivery.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact1 {
+  background: url("../app/contact/Assets/Frame\ 1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -10,7 +10,7 @@ export default function Header() {
         <Link href="">
             Home
         </Link>
-        <Link href="">
+src/app/contact/page.jsx        <Link href="">
             Home
         </Link>
         <Link href="">
@@ -21,11 +21,11 @@ export default function Header() {
         <Image src={Logo} className=' w-full' alt='Logo Image' />
       </div>
       <nav className='w-[15%] flex justify-between '>
-        <Link href="">
-            Home
+      <Link href="/contact">
+            Contact
         </Link>
-        <Link href="">
-            Home
+        <Link href="/about">
+            About
         </Link>
         <Link href="">
             Home
