@@ -55,6 +55,21 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.shop-hero{
+  background: url("../app/shop//Assets/Group\ 1000005948.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recipes-hero{
+  background: url("../app/recipes//Assets/image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .delivery-overlay{
   background: rgba(255, 255, 255, 0.80);
+}
+.button{
+  box-shadow: 2px 2px 16px 0px rgba(32, 32, 32, 0.32);
 }

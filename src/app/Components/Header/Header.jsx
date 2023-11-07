@@ -7,14 +7,14 @@ export default function Header() {
   return (
     <header className=' fixed z-[10] top-0 w-full flex justify-between items-center py-2 px-[5%] '>
       <nav className='w-[15%] flex justify-between '>
-        <Link href="">
+        <Link href="/">
             Home
         </Link>
-src/app/contact/page.jsx        <Link href="">
-            Home
+        <Link href="shop">
+            Shop
         </Link>
-        <Link href="">
-            Home
+        <Link href="recipes">
+            Recipes
         </Link>
       </nav>
       <div className='w-[10%] '>
