@@ -73,3 +73,9 @@ header {
 .button{
   box-shadow: 2px 2px 16px 0px rgba(32, 32, 32, 0.32);
 }
+.button:hover{
+  box-shadow: none;
+}
+td{
+  /* width: 25%; */
+}

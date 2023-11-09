@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Cart from "./Assets/Cart.png";
 import { AiFillStar, AiOutlineShoppingCart } from "react-icons/ai";
 import Link from "next/link";
+
 
 export default function BreadCard({name, price, image}) {
   return (
@@ -12,7 +12,9 @@ export default function BreadCard({name, price, image}) {
       </section>
       <section className="flex justify-between items-center mt-2">
         <div>
-          <h3 className="  text-base font-medium ">{name}</h3>
+          <Link href="/productdescription">
+          <h3 className=" hover:text-Primary text-base font-medium ">{name}</h3>
+          </Link>
           <div className="flex justify-between items-center mt-2">
             <p className=" text-base font-medium">Price</p>
             <strong className=" font-bold text-[1.05rem] ">{price}</strong>
@@ -31,10 +33,10 @@ export default function BreadCard({name, price, image}) {
           </div>
         </div>
         <div className=" bg-Primary text-white rounded-full p-1 text-[1.1rem] ">
-          <Link href="">
+          <Link href="/wishlist">
             <AiOutlineShoppingCart />
           </Link>
-        </div>
+        </div>  
       </section>
     </div>
   );
